@@ -1,0 +1,25 @@
+{
+  "name": "sprint3-front-and-design",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrunoMuzzi15/Sprint3-front-and-design.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/BrunoMuzzi15/Sprint3-front-and-design/issues"
+  },
+  "homepage": "https://github.com/BrunoMuzzi15/Sprint3-front-and-design#readme",
+  "dependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}
