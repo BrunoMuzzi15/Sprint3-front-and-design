@@ -48,6 +48,12 @@
                         Nossa Equipe
                     </a>
                 </li>
+                
+                <li>
+                    <a href="#contato" class="hover:text-purple-400 transition">
+                        Contato
+                    </a>
+                </li>
 
             </ul>
 
@@ -86,7 +92,7 @@
                         Conheça a solução
                     </a>
 
-               
+        
 
                 
 
@@ -139,7 +145,7 @@
                             class="h-full rounded-[28px] bg-gradient-to-br from-purple-700 to-blue-900 flex flex-col justify-center items-center">
 
                             <span class="text-xs tracking-widest">
-                               
+
                             </span>
 
                             <strong class="text-3xl mt-5">
@@ -148,7 +154,7 @@
                             </strong>
 
                             <span class="text-purple-300 mt-5">
-                               
+                        
                             </span>
 
                         </div>
@@ -330,28 +336,11 @@
                         Mais luz para seus momentos.
                     </h2>
 
-                    <p class="text-slate-400 mb-6">
+                    <p class="text-slate-600 mb-6">
                         Ao tirar uma foto em um ambiente de festa, a Luz
                         Dinâmica pode adaptar a iluminação, buscando melhorar
                         a experiência e a qualidade da fotografia.
                     </p>
-
-                </div>
-
-
-                <div class="flex justify-center">
-
-                    <div
-                        class="w-56 h-[440px] bg-slate-900 border-4 border-slate-700 rounded-[35px] p-2">
-
-                        <div
-                            class="h-full rounded-[28px] bg-gradient-to-br from-pink-500 via-purple-600 to-blue-700 flex items-end justify-center pb-8">
-
-                            <div class="w-16 h-16 rounded-full border-4 border-white"></div>
-
-                        </div>
-
-                    </div>
 
                 </div>
 
@@ -558,6 +547,147 @@
 
         </section>
 
+        <section id="contato" class="py-24 bg-slate-900">
+
+            <div class="max-w-6xl mx-auto px-6">
+
+                <div class="text-center mb-12">
+
+                    <p class="text-purple-400 font-semibold mb-3">
+                        CONTATO
+                    </p>
+
+                    <h2 class="text-4xl font-bold mb-4">
+                        Entre em contato
+                    </h2>
+
+                    <p class="text-slate-400 max-w-2xl mx-auto">
+                        Ficou interessado na nossa proposta? Entre em contato com a nossa equipe.
+                    </p>
+
+                </div>
+
+
+            <div class="grid md:grid-cols-2 gap-12">
+
+            
+            <div>
+
+                    <h3 class="text-2xl font-bold mb-6">
+                        Fale com a gente
+                    </h3>
+
+            <div class="space-y-6">
+
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+
+                    <p class="text-purple-400 font-semibold mb-1">
+                        E-mail
+                    </p>
+
+                    <p class="text-slate-400">
+                        contato@horizon.com
+                    </p>
+
+                </div>
+
+
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+
+                    <p class="text-purple-400 font-semibold mb-1">
+                        Telefone
+                    </p>
+
+                    <p class="text-slate-400">
+                        (11) 99999-9999
+                    </p>
+
+                </div>
+
+
+                <div class="bg-slate-800 p-5 rounded-xl border border-slate-700">
+
+                    <p class="text-purple-400 font-semibold mb-1">
+                        Redes sociais
+                    </p>
+
+                    <p class="text-slate-400">
+                        @horizon.oficial
+                    </p>
+
+                </div>
+
+                </div>
+
+                </div>
+            <form id="formContato" class="space-y-5">
+
+            <div>
+                <label class="block mb-2 text-sm">
+                    Nome
+                </label>
+
+                <input
+                    type="text"
+                    placeholder="Digite seu nome"
+                    required
+                    class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3"
+        >
+                </div>
+
+            <div>
+                <label class="block mb-2 text-sm">
+                    E-mail
+                </label>
+
+                <input
+                    type="email"
+                    placeholder="Digite seu e-mail"
+                    required
+                    class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3"
+        >
+            </div>
+
+            <div>
+                <label class="block mb-2 text-sm">
+                    Mensagem
+                </label>
+
+                <textarea
+                    rows="5"
+                    placeholder="Digite sua mensagem"
+                    required
+                    class="w-full bg-slate-900 border border-slate-700 rounded-lg px-4 py-3"
+                ></textarea>
+            </div>
+
+                <button
+                    type="submit"
+                    class="w-full bg-purple-600 hover:bg-purple-700 py-3 rounded-lg font-semibold transition"
+    >
+                    Enviar mensagem
+                </button>
+
+                <p id="mensagemSucesso" class="hidden text-green-400 text-center font-semibold">
+                    Mensagem enviada com sucesso!
+                </p>
+                <script>
+                    const form = document.getElementById("formContato");
+                    const mensagem = document.getElementById("mensagemSucesso");
+
+                    form.addEventListener("submit", function(event) {
+                    event.preventDefault();
+
+                    mensagem.classList.remove("hidden");
+
+                    form.reset();
+    });
+                </script>
+
+</form>
+
+</section>
+
     </main>
 
 
@@ -597,6 +727,10 @@
             <a href="#equipe" class="hover:text-white">
                 Nossa Equipe
             </a>
+            
+            <a href="#contato" class="hover:text-white">
+                Contato
+            </a>
 
             </div>
 
@@ -612,6 +746,10 @@
         </div>
 
     </footer>
+
+</body>
+
+
 
 </body>
 
