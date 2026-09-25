@@ -69,6 +69,10 @@ back-end). Para testar, utilize:
  `/login`       Pública - Tela de login (mock)                               
  `/dashboard`   Privada - Lista de usuários consumida da API JSONPlaceholder 
 
+## Link do repositorio git
+
+`https://github.com/BrunoMuzzi15/Sprint3-front-and-design.git`
+
 ## Link do Deploy na Vercel
 
 `https://sprint3-front-and-design.vercel.app/`
