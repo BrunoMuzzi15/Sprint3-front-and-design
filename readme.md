@@ -71,16 +71,10 @@ back-end). Para testar, utilize:
 
 ## Link do Deploy na Vercel
 
-`<colar aqui o link gerado após o deploy>`
+`<https://sprint3-front-and-design.vercel.app/>`
 
-### Como fazer o deploy na Vercel
 
-1. Suba este projeto para um repositório no GitHub.
-2. Acesse [vercel.com](https://vercel.com) e importe o repositório.
-3. Framework preset: **Vite**. Build command: `npm run build`. Output
-directory: `dist` (a Vercel geralmente detecta isso automaticamente).
-4. Finalize o deploy e copie o link gerado para colar acima.
 
-## Integrantes
 
-Ver arquivo INTEGRANTES.TXT
+
+
