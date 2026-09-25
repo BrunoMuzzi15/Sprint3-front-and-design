@@ -69,10 +69,6 @@ back-end). Para testar, utilize:
  `/login`       Pública - Tela de login (mock)                               
  `/dashboard`   Privada - Lista de usuários consumida da API JSONPlaceholder 
 
-## Link do repositório Git
-
-`<colar aqui o link do repositório após o push>`
-
 ## Link do Deploy na Vercel
 
 `<colar aqui o link gerado após o deploy>`
