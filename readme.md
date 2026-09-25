@@ -71,7 +71,7 @@ back-end). Para testar, utilize:
 
 ## Link do Deploy na Vercel
 
-`<https://sprint3-front-and-design.vercel.app/>`
+`https://sprint3-front-and-design.vercel.app/`
 
 
 
