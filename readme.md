@@ -45,13 +45,6 @@ gratuita JSONPlaceholder (`https://jsonplaceholder.typicode.com/users`), então
 não é necessário subir nenhum servidor adicional — basta ter conexão com a
 internet ao rodar o projeto.
 
-## Onde e como a IA foi utilizada no projeto
-
-A IA (Claude, da Anthropic) foi utilizada para apoiar a migração da Landing
-Page estática da Sprint 03 (HTML + Tailwind) para uma aplicação React
-componentizada.
-
-Todo o código gerado foi revisado pela equipe antes da entrega.
 
 ## Usuário e senha para teste (rota privada)
 
